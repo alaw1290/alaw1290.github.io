@@ -16,7 +16,7 @@
 title: Adrian Law
 email: adrianlaw1290@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal web presense of Adrian for contact info, resume, portfolio etc.
+  Personal web presence of Adrian for contact info, resume, portfolio etc.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "alaw.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alaw1290
