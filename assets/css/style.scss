@@ -4,12 +4,51 @@
 @import "{{ site.theme }}";
 
 body {
+	background-color: #262626
+}
+
+header ul {
+	background: none; 
+	border: none; 
+	height: 60px;
+	width: 270px;
+}
+
+header li {
+	padding: 6px 0 6px;
+	height: 44px; 
+}
+
+h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
+
+a { 
+	color: #e1e1e1; 
+}
+
+a:hover, a:focus { 
+	color: #fff;
+}
+
+p {
+	color: #a2a2a2;
+}
+
+footer p {
+	color: #727272;
 }
 
 .svg-icon {
-  width: 16px;
-  height: 16px;
+
+  width: 36px;
+  height: 36px;
   display: inline-block;
-  fill: #ffffff;
+  fill: #fff;
   padding-right: 5px;
-  vertical-align: text-top; }
+  vertical-align: text-top; 
+
+}
+
+.social-media-list {
+	margin: auto;
+}
+
