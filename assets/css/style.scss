@@ -7,6 +7,11 @@ body {
 	background-color: #262626
 }
 
+
+header {
+	border-right: 1px solid #e5e5e5;
+}
+
 header ul {
 	background: none; 
 	border: none; 
@@ -19,7 +24,9 @@ header li {
 	height: 44px; 
 }
 
-h1, h2, h3, h4, h5, h6 { color: #222; margin: 0 0 20px; }
+h1, h2, h3, h4, h5, h6 { 
+	color: #e1e1e1; 
+}
 
 a { 
 	color: #e1e1e1; 
@@ -52,3 +59,9 @@ footer p {
 	margin: auto;
 }
 
+
+@media print, screen and (max-width: 960px) {
+	header {
+		border-right: none ;
+	}
+}
