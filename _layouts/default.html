@@ -7,9 +7,21 @@
       {%- include header.html -%}
 
       <section>
-      {{ content }}
+      {% assign pages = site.pages | sort: 'position'%}
+      {% for page in pages %}
+        {% if page.position %}
+          {{ page.title }}
+          {{ page.content }}
+        {% endif %}
+      {% endfor %}
+      <!-- {{ page }} -->
+      <!-- {{ page.title }} -->
+      <!-- {{ page.content }} -->
+      <!-- {{ content }} -->
+      <!-- i love my baby so much <3 -->
       </section>
       
+
       {%- include footer.html -%}
 
     </div>
