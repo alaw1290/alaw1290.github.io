@@ -234,4 +234,14 @@ footer p { color: #727272; }
 
 .social-media-list { margin: auto; }
 
+.section-title { background-color: #262626; color: #e1e1e1; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
+
+.active, .section-title:hover { background-color: #565656; color: #fff; }
+
+.section-title:after { content: 'expand'; font-size: 10px; text-align: center; float: right; margin-top: 4px; margin-left: 5px; color: #fff; }
+
+.active:after { content: "collapse"; }
+
+.section-content { padding: 0 18px; display: none; overflow: hidden; }
+
 @media print, screen and (max-width: 960px) { header { border-right: none; } }
