@@ -1,10 +1,11 @@
-{% assign pages = site.pages | sort: 'position'%}
+{% assign pages = site.pages | where_exp: 'page', 'page.position >= 0' | sort: 'position'%}
+{% if pages %}
+<button class="section-clickall" id="clickall"></button>
+{% endif %}
 {% for page in pages %}
-  {% if page.position %}
     <button class="section-title">{{ page.title }}</button>
     <div class="section-content">
       <p>{{ page.content }}</p>
     </div>
-  {% endif %}
 {% endfor %}
 <script src="{{ '/assets/js/collapse.js' | relative_url }}"></script>

@@ -234,13 +234,19 @@ footer p { color: #727272; }
 
 .social-media-list { margin: auto; }
 
-.section-title { background-color: #262626; color: #e1e1e1; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
+.section-clickall { background-color: #1a1a1a; color: #e1e1e1; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: right; outline: none; font: 10px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
 
-.active, .section-title:hover { background-color: #565656; color: #fff; }
+.section-clickall:after { content: 'click here to expand all sections'; }
 
-.section-title:after { content: 'expand'; font-size: 10px; text-align: center; float: right; margin-top: 4px; margin-left: 5px; color: #fff; }
+.section-clickall.active:after { content: 'click here to collapse all sections'; }
 
-.active:after { content: "collapse"; }
+.section-title { background-color: #1a1a1a; color: #e1e1e1; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
+
+.section-title.active, .section-title:hover { background-color: #565656; color: #fff; }
+
+.section-title:after { content: 'click to expand'; font-size: 10px; text-align: center; float: right; margin-top: 4px; margin-left: 5px; color: #fff; }
+
+.section-title.active:after { content: "click to collapse"; }
 
 .section-content { padding: 0 18px; display: none; overflow: hidden; }
 
