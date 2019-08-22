@@ -58,21 +58,28 @@ footer p {
 }
 
 .section-clickall {
-  background-color: #1a1a1a;
+  background-color: #262626;
   color: #e1e1e1;
   cursor: pointer;
-  padding: 18px;
+  padding-left: 18px;
   width: 100%;
   border: none;
-  text-align: right;
+  float: right;
+  text-align: left;
   outline: none;
-  font: 10px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 5px;
+  font: 20px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-bottom: 15px;
 }
 
 .section-clickall:after {
   content: 'click here to expand all sections';
+  font-size: 10px;
+  text-align: center;
+  float: right;
+  margin-top: 9px;
+  margin-left: 5px;
 }
+
 .section-clickall.active:after {
   content: 'click here to collapse all sections';
 }
