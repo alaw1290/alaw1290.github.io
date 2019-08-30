@@ -1,5 +1,5 @@
 ---
-title: Other
+title: Other fun stuff!
 position: 3
 ---
 

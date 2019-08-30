@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Sample of accomplishments...
 position: 2
 ---
 

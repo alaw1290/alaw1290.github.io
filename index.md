@@ -2,6 +2,10 @@
 title: Welcome
 ---
 
-Hi! This is my personal web presence, nice to meet you!
+### Hi!
 
-You can find my contact info, bio and more compiled around here.
+I'm a Boston-based Data Scientist + Programmer
+
+With a passion for learning and a commitment to drive meaningful change
+
+Let's get in touch!
