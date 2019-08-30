@@ -5,7 +5,7 @@
 {% for page in pages %}
     <button class="section-title">{{ page.title }}</button>
     <div class="section-content">
-      <p>{{ page.content }}</p>
+      <p>{{ page.content | markdownify}}</p>
     </div>
 {% endfor %}
 <script src="{{ '/assets/js/collapse.js' | relative_url }}"></script>

@@ -4,7 +4,7 @@
   <img src="{{site.logo | relative_url}}" alt="Logo" />
   {% endif %}
 
-  <p>{{ content | default: site.github.project_tagline }}</p>
+  <p>{{ content | default: site.github.project_tagline | markdownify}}</p>
 
   {% if site.show_downloads %}
   <ul class="downloads">
