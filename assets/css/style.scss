@@ -57,6 +57,12 @@ footer p {
 .social-media-list {
 	margin: auto;
 }
+.test .section-content {
+  display: none;
+}
+.test:hover .section-content {
+  display: block;
+}
 
 .section-clickall {
   background-color: #262626;

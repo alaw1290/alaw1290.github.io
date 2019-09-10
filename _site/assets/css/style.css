@@ -234,6 +234,10 @@ footer p { color: #727272; }
 
 .social-media-list { margin: auto; }
 
+.test .section-content { display: none; }
+
+.test:hover .section-content { display: block; }
+
 .section-clickall { background-color: #262626; color: #e1e1e1; cursor: pointer; padding-left: 18px; width: 100%; border: none; float: right; text-align: left; outline: none; font: 20px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 15px; }
 
 .section-clickall:after { content: 'click here to expand all sections'; font-size: 10px; text-align: center; float: right; margin-top: 9px; margin-left: 5px; }

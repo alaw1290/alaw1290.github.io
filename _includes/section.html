@@ -3,9 +3,11 @@
 <button class="section-clickall" id="clickall"><h1 style="float:left; margin: 0;"> </h1></button>
 {% endif %}
 {% for page in pages %}
-    <button class="section-title">{{ page.title }}</button>
-    <div class="section-content">
-      <p>{{ page.content | markdownify}}</p>
-    </div>
+	<div class="test">
+		<button class="section-title" id="title">{{ page.title }}</button>
+	    <div class="section-content" id="content">
+	      <p>{{ page.content | markdownify}}</p>
+	    </div>
+	</div>
 {% endfor %}
-<script src="{{ '/assets/js/collapse.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/display_logic.js' | relative_url }}"></script>
