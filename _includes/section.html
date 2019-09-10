@@ -1,6 +1,5 @@
 {% assign pages = site.pages | where_exp: 'page', 'page.position >= 0' | sort: 'position'%}
 {% if pages %}
-<button class="section-clickall" id="clickall"><h1 style="float:left; margin: 0;"> </h1></button>
 {% endif %}
 {% for page in pages %}
     <button class="section-title">{{ page.title }}</button>

@@ -234,20 +234,8 @@ footer p { color: #727272; }
 
 .social-media-list { margin: auto; }
 
-.section-clickall { background-color: #262626; color: #e1e1e1; cursor: pointer; padding-left: 18px; width: 100%; border: none; float: right; text-align: left; outline: none; font: 20px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 15px; }
+.section-title { background-color: #1a1a1a; color: #e1e1e1; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
 
-.section-clickall:after { content: 'click here to expand all sections'; font-size: 10px; text-align: center; float: right; margin-top: 9px; margin-left: 5px; }
-
-.section-clickall.active:after { content: 'click here to collapse all sections'; }
-
-.section-title { background-color: #1a1a1a; color: #e1e1e1; cursor: pointer; padding: 18px; width: 100%; border: none; text-align: left; outline: none; font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 5px; }
-
-.section-title.active, .section-title:hover { background-color: #565656; color: #fff; }
-
-.section-title:after { content: 'click to expand'; font-size: 10px; text-align: center; float: right; margin-top: 4px; margin-left: 5px; color: #fff; }
-
-.section-title.active:after { content: "click to collapse"; }
-
-.section-content { padding: 0 18px; display: none; overflow: hidden; }
+.section-content { padding: 0 18px; display: block; overflow: hidden; }
 
 @media print, screen and (max-width: 960px) { header { border-right: none; } }
