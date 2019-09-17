@@ -9,4 +9,6 @@ I'm fascinated by the potential I find in projects and excited about enacting me
 
 My goals are to advance our understanding of the world around us through data and develop solutions with that understanding
 
-After graduating from Boston University in 2017 in Computer Science and Economics, I joined Optum as a Data Scientist, where I'm applying ML initiatives to the healthcare space
+After graduating from Boston University in 2017 in Computer Science and Economics, I joined Optum as a Data Scientist, where I'm applying ML initiatives to the healthcare space 
+
+[test link](https://www.google.com)

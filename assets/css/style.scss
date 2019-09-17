@@ -34,6 +34,7 @@ a {
 }
 
 a:hover, a:focus { 
+  font: inherit;
 	color: #fff;
 }
 
@@ -58,21 +59,22 @@ footer p {
 	margin: auto;
 }
 
+.section {
+  /*width: 1000px*/
+}
+
 .section-title {
   background-color: #1a1a1a;
   color: #e1e1e1;
   padding: 18px;
   width: 100%;
-  border: none;
   text-align: left;
   outline: none;
-  font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 .section-content {
   padding: 0 18px;
-  display: block;
   overflow: hidden;
 } 
 
